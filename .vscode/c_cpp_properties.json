@@ -1,0 +1,46 @@
+{
+    "configurations": [
+        {
+            "name": "!!! WARNING !!! AUTO-GENERATED FILE, PLEASE DO NOT MODIFY IT AND USE https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags"
+        },
+        {
+            "name": "Win32",
+            "includePath": [
+                "d:/Embedded/STM32F103C8ProjectTemplate/include",
+                "d:/Embedded/STM32F103C8ProjectTemplate/src",
+                "C:/Users/Me/.platformio/packages/framework-cmsis/CMSIS/Core/Include",
+                "C:/Users/Me/.platformio/packages/framework-cmsis/variants/ststm32/stm32f1/common",
+                "C:/Users/Me/.platformio/packages/tool-unity",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "d:/Embedded/STM32F103C8ProjectTemplate/include",
+                    "d:/Embedded/STM32F103C8ProjectTemplate/src",
+                    "C:/Users/Me/.platformio/packages/framework-cmsis/CMSIS/Core/Include",
+                    "C:/Users/Me/.platformio/packages/framework-cmsis/variants/ststm32/stm32f1/common",
+                    "C:/Users/Me/.platformio/packages/tool-unity",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=40200",
+                "STM32F1",
+                "STM32F103xB",
+                "ARDUINO_BLUEPILL_F103C8",
+                "F_CPU=72000000L",
+                "PILL_F103XX",
+                ""
+            ],
+            "intelliSenseMode": "clang-x64",
+            "compilerPath": "C:/Users/Me/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc.exe",
+            "compilerArgs": [
+                "-mthumb",
+                "-mcpu=cortex-m3",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
